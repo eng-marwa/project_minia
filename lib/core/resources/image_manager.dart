@@ -10,4 +10,6 @@ class ImageManager {
   static const String footer = '${_path}info_card.svg';
   static const String leftArrow = '${_path}arrow_left.svg';
   static const String img = '${_path}office-workplace.png';
+  static const String emailIcon = '${_path}email.svg';
+  static const String passwordIcon = '${_path}password.svg';
 }

@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:project_minia/presentation/auth/screens/login_screen.dart';
 
+import '../../core/network/dio_config.dart';
 import '../../core/resources/color_manager.dart';
 import '../../core/resources/image_manager.dart';
 import '../../core/resources/text_style.dart';
+import '../auth/data/remote_ds/auth_api_service.dart';
+import '../auth/domain/auth_repository.dart';
+import '../auth/logic/auth_bloc.dart';
 import 'onboarding_data.dart';
 
 class OnboardingScreen extends StatefulWidget {
@@ -107,7 +113,14 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                       curve: Curves.easeIn),
                 )),
             TextButton(
-                onPressed: () {},
+                onPressed: () => Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => BlocProvider<AuthCubit>(
+                          create: (context) => AuthCubit(AuthRepository(
+                              AuthApiService(DioConfig.getDio()))),
+                          child: LoginScreen()),
+                    )),
                 child: Text(
                   'Skip',
                   style: TextStyles.skip,

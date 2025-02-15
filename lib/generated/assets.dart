@@ -8,11 +8,14 @@ class Assets {
       'assets/fonts/Inter_24pt-SemiBold.ttf';
   static const String imagesAmico = 'assets/images/amico.svg';
   static const String imagesArrowLeft = 'assets/images/arrow_left.svg';
+  static const String imagesEmail = 'assets/images/email.svg';
+  static const String imagesEyes = 'assets/images/eyes.svg';
   static const String imagesInfoCard = 'assets/images/info_card.svg';
   static const String imagesLogo = 'assets/images/logo.svg';
   static const String imagesNext = 'assets/images/next.svg';
   static const String imagesOfficeWorkplace =
       'assets/images/office-workplace.png';
+  static const String imagesPassword = 'assets/images/password.svg';
   static const String imagesRafiki = 'assets/images/rafiki.svg';
   static const String imagesRafiki1 = 'assets/images/rafiki1.svg';
 }
