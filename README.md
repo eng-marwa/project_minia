@@ -60,17 +60,17 @@
 
 ### <tr>
 
-### <td><img src="splash.png" width=270 height=480></td>
+### <td><img src="splash.png" width=270 height=500></td>
 
-### <td><img src="login.png" width=270 height=480></td>
+### <td><img src="login.png" width=270 height=500></td>
 
 ### </tr>
 
 ### <tr>
 
-### <td><img src="onboarding.png" width=270 height=480></td>
+### <td><img src="onboarding.png" width=270 height=500></td>
 
-### <td><img src="home.png" width=270 height=480></td>
+### <td><img src="home.png" width=270 height=500></td>
 
 ### </tr>
 
