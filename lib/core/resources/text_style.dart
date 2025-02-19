@@ -18,7 +18,7 @@ class TextStyles {
       color: ColorManager.primaryColor);
 
   static TextStyle description = TextStyle(
-      fontSize: 13.sp,
+      fontSize: 14.sp,
       fontFamily: 'Inter',
       fontWeight: FontWeight.normal,
       color: ColorManager.primaryColor);
@@ -40,4 +40,16 @@ class TextStyles {
       fontFamily: 'Inter',
       fontWeight: FontWeight.w600,
       color: ColorManager.primaryColor);
+
+  static TextStyle sectionTitle = TextStyle(
+      fontSize: 16.sp,
+      fontFamily: 'Inter',
+      fontWeight: FontWeight.w600,
+      color: ColorManager.blackColor);
+
+  static TextStyle bold24Black = TextStyle(
+      fontSize: 20.sp,
+      fontFamily: 'Inter',
+      fontWeight: FontWeight.w900,
+      color: ColorManager.blackColor);
 }

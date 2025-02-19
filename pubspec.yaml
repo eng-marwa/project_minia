@@ -15,12 +15,14 @@ dependencies:
   flutter_svg: ^2.0.17
   flutter_bloc: ^9.0.0
   flutter_screenutil: ^5.9.3
-  json_serializable: ^6.9.4
+  json_serializable: 
   dio: ^5.8.0+1
-  freezed: ^2.5.8
-  json_annotation: ^4.9.0
-  freezed_annotation: ^2.4.4
-
+  freezed:
+  json_annotation:
+  freezed_annotation:
+  get_it: ^8.0.3
+  shared_preferences:
+  hive_flutter:
 
 dev_dependencies:
   flutter_test:
@@ -28,8 +30,8 @@ dev_dependencies:
 
 
   flutter_lints: ^5.0.0
-  build_runner: ^2.4.15
-
+  build_runner:
+  hive_generator:
 
 
 flutter:
